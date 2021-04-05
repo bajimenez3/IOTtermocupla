@@ -59,10 +59,7 @@ float Valor_Temperatura = 0;
 void setup() {
     Serial.begin(115200); 
     ubidots.wifiConnect(WIFISSID, PASSWORD);
-   pinMode(ledPin, OUTPUT);
-    pinMode(LED_BUILTIN, OUTPUT);
-    digitalWrite(LED_BUILTIN, 1);
-    
+   pinMode(ledPin, OUTPUT);    
 }
 
 void loop() 
